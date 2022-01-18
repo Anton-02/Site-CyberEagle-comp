@@ -1,0 +1,88 @@
+#main{
+    padding: 15px 20px;
+}
+
+#aboutBrand{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#brandRef a{
+    font-size: 1em;
+}
+
+#brandRef{
+    width: 70%;
+}
+
+#brandRef span{
+    font-size: 1.6em;
+}
+
+#brandLogo img{
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 0 3px 2px rgb(28, 132, 230);
+}
+
+#brandLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#peripheryPhoto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#peripheryPhoto img{
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 20px;
+    box-shadow: 0 0 3px 2px rgb(28, 132, 230);
+}
+
+#customPC_photo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#customPC img{
+    max-width: 400px;
+    width: 100%;
+    margin: 15px;
+    box-shadow: 0 0 3px 2px rgb(28, 132, 230);
+}
+
+@media(max-width: 725px){
+    #brandLogo img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media(max-width: 620px){
+    #brandLogo img{
+        display: block;
+        margin: 10px auto;
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    #brandRef{
+        width: 100%;
+    }
+
+    #aboutBrand{
+        display: block;
+    }
+
+    #peripheryPhoto img{
+        margin: 15px 0;
+    }
+}

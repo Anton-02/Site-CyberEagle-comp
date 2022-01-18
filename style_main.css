@@ -1,0 +1,44 @@
+.gallary_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallary_item{
+    margin: 15px auto;
+}
+
+.gallary_item img{
+    height: 180px;
+    width: 280px;
+    box-shadow: 0 0 3px 2px rgb(28, 132, 230);
+}
+
+.gallary_item img:hover{
+    box-shadow: 0 0 3px 5px rgb(28, 132, 230);
+    transition: .2s;
+}
+
+.first_gallary, .second_gallary{
+    padding: 40px 0 ;
+}
+
+.second_gallary{
+    padding-top: 0;
+}
+
+.first_gallary span, .second_gallary span{
+    font-family: fantasy;
+    font-size: 1.8em;
+    margin: 10px 20px;
+}
+
+@media(max-width: 650px){
+    .first_gallary span, .second_gallary span{
+        display: flex;
+        justify-content: center;
+    }
+
+    .first_gallary span, .second_gallary span{
+        font-size: 2.5em;
+    }
+}

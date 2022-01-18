@@ -1,0 +1,35 @@
+#main{
+    padding: 15px 20px;
+}
+
+ #our_team, #brand_items img{
+    /* padding: 5px 10px; */
+
+    font-size: 1.4em;
+    box-shadow: 0 0 3px 2px rgb(28, 132, 230);
+}
+
+.cybersport_team img{
+    max-width: 600px;
+    width: 100%;
+    margin: 10px;
+}
+
+#brand img{
+    max-width: 350px;
+    width: 100%;
+    margin: 10px;
+}
+
+#brand_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 470px){
+    .cybersport_team img{
+        margin: 10px 0;
+    }
+}
